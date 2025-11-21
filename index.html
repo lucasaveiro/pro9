@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro9 | Custom Internal Systems for Small Business</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#0f172a', /* Slate 900 */
+                            primary: '#2563eb', /* Blue 600 */
+                            light: '#f8fafc', /* Slate 50 */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-600 antialiased bg-white">
+
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm border-b border-slate-100 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-2xl text-brand-dark tracking-tight">Pro9</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#problems" class="text-slate-500 hover:text-brand-primary font-medium transition">Problems</a>
+                    <a href="#process" class="text-slate-500 hover:text-brand-primary font-medium transition">How We Work</a>
+                    <a href="#case-study" class="text-slate-500 hover:text-brand-primary font-medium transition">Case Study</a>
+                </div>
+                <div>
+                    <a href="#contact" class="bg-brand-dark text-white px-5 py-2 rounded-md font-medium hover:bg-slate-700 transition">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 lg:pt-40 lg:pb-28 bg-brand-light border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-brand-dark tracking-tight leading-tight mb-6">
+                Turn your scattered spreadsheets and paper forms into <span class="text-brand-primary">one simple system.</span>
+            </h1>
+            <p class="text-xl text-slate-500 mb-10 max-w-2xl mx-auto">
+                We build custom internal software for U.S. small businesses. We replace manual data entry, messy Excel sheets, and disconnected tools with a single, clean workflow.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+                <a href="#contact" class="bg-brand-primary text-white text-lg px-8 py-4 rounded-md font-semibold shadow-lg hover:bg-blue-700 transition transform hover:-translate-y-0.5">
+                    Schedule a Free Process Review
+                </a>
+                <a href="#contact" class="bg-white text-brand-dark border border-slate-300 text-lg px-8 py-4 rounded-md font-semibold hover:bg-slate-50 transition">
+                    Tell us about your process
+                </a>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm font-medium text-slate-400 uppercase tracking-wide">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-building"></i> Built for small business
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-stopwatch"></i> Weeks, not years
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved"></i> Low-risk rollout
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-bold text-brand-primary uppercase tracking-wider mb-2">Who We Help</h2>
+                <h3 class="text-3xl font-bold text-brand-dark">Owner-led businesses stuck in "Admin Hell"</h3>
+                <p class="mt-4 text-lg text-slate-500 max-w-2xl mx-auto">
+                    We work with owner-operated businesses that have outgrown basic apps but aren’t ready for expensive, bloated enterprise software.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-md transition">
+                    <div class="text-brand-primary text-2xl mb-4"><i class="fa-solid fa-industry"></i></div>
+                    <h4 class="text-xl font-bold text-brand-dark mb-2">Specialty Manufacturers</h4>
+                    <p class="text-slate-600">Shops that need to track custom orders, inventory, and production steps without using a whiteboard.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-md transition">
+                    <div class="text-brand-primary text-2xl mb-4"><i class="fa-solid fa-truck-pickup"></i></div>
+                    <h4 class="text-xl font-bold text-brand-dark mb-2">Field Services & Trades</h4>
+                    <p class="text-slate-600">Construction, maintenance, or logistics companies struggling to get data from the field to the office.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-md transition">
+                    <div class="text-brand-primary text-2xl mb-4"><i class="fa-solid fa-user-tie"></i></div>
+                    <h4 class="text-xl font-bold text-brand-dark mb-2">Service Agencies</h4>
+                    <p class="text-slate-600">Professional teams drowning in email threads, approvals, and manual client reporting.</p>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-center bg-blue-50 p-4 rounded-lg border border-blue-100 inline-block w-full">
+                <p class="font-medium text-brand-dark">
+                    <i class="fa-solid fa-info-circle text-brand-primary mr-2"></i>
+                    Note: We build for owners who are busy running a company, not managing IT projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="problems" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">The Problems We Solve</h2>
+                    <p class="text-lg text-slate-300 mb-6">
+                        If your business feels like it’s held together by duct tape and institutional memory, you aren’t alone. We fix the operational bottlenecks that generic software can’t handle.
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700">
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                            <span><strong>Data is everywhere:</strong> Spreadsheets, emails, and clipboards.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                            <span><strong>Admin takes forever:</strong> Hours lost just copy-pasting data.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                            <span><strong>Invoicing is painful:</strong> Slow billing because data is lost.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                            <span><strong>Errors creep in:</strong> Broken formulas and misread handwriting.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                            <span><strong>Fear of growth:</strong> The current manual process will collapse if you scale.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-brand-dark">What We Build</h2>
+                <p class="mt-4 text-lg text-slate-500">
+                    We don’t build marketing websites. We build custom internal operations systems.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex gap-4 p-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-brand-dark">Custom Operations Portals</h4>
+                        <p class="text-slate-600">A single web-based login where your team manages jobs, customers, and workflows.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-table"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-brand-dark">Spreadsheet Replacements</h4>
+                        <p class="text-slate-600">Migrate complex Excel logic into a secure database multiple people can use at once.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-brand-dark">Field Data Entry Tools</h4>
+                        <p class="text-slate-600">Simple mobile interfaces for staff to input status updates from the job site.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-brand-dark">Workflow Automation</h4>
+                        <p class="text-slate-600">Connect QuickBooks, CRMs, and Email so data flows automatically.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-20 bg-brand-light border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-dark">How We Work</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 relative">
+                <div class="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-slate-200 -z-10"></div>
+
+                <div class="text-center bg-brand-light">
+                    <div class="w-16 h-16 mx-auto bg-white border-2 border-brand-primary text-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-sm">1</div>
+                    <h4 class="text-lg font-bold text-brand-dark mb-2">The Deep Dive</h4>
+                    <p class="text-sm text-slate-600">We sit down to watch exactly how you work today, mapping every form and frustration.</p>
+                </div>
+                <div class="text-center bg-brand-light">
+                    <div class="w-16 h-16 mx-auto bg-white border-2 border-brand-primary text-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-sm">2</div>
+                    <h4 class="text-lg font-bold text-brand-dark mb-2">Fast MVP</h4>
+                    <p class="text-sm text-slate-600">In a few weeks, we build a lean, working version solving your biggest headache first.</p>
+                </div>
+                <div class="text-center bg-brand-light">
+                    <div class="w-16 h-16 mx-auto bg-white border-2 border-brand-primary text-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-sm">3</div>
+                    <h4 class="text-lg font-bold text-brand-dark mb-2">Parallel Rollout</h4>
+                    <p class="text-sm text-slate-600">The new system runs <em>alongside</em> the old one until you are 100% ready to switch.</p>
+                </div>
+                <div class="text-center bg-brand-light">
+                    <div class="w-16 h-16 mx-auto bg-brand-primary border-2 border-brand-primary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-sm">4</div>
+                    <h4 class="text-lg font-bold text-brand-dark mb-2">Refine & Switch</h4>
+                    <p class="text-sm text-slate-600">We make tweaks based on real use, then fully retire your old manual process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case-study" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden">
+                <div class="bg-brand-dark p-6 text-white">
+                    <h3 class="text-xl font-bold"><i class="fa-solid fa-folder-open mr-2"></i> Project Example: The Custom Fabrication Shop</h3>
+                </div>
+                <div class="p-8 md:p-10">
+                    <div class="grid md:grid-cols-2 gap-10">
+                        <div>
+                            <h4 class="font-bold text-brand-dark mb-2 uppercase text-sm tracking-wide">The Problem</h4>
+                            <p class="text-slate-600 mb-6">
+                                Jobs were written on paper "travelers" that got oily and lost. The owner had to walk the floor to find job statuses. Invoices went out weeks late.
+                            </p>
+                            
+                            <h4 class="font-bold text-brand-dark mb-2 uppercase text-sm tracking-wide">The Solution</h4>
+                            <p class="text-slate-600">
+                                We built a <strong>"Job Tracker" Web App</strong>. Tablets on the floor let welders tap "Start" and "Finish".
+                            </p>
+                        </div>
+                        <div class="bg-slate-50 p-6 rounded-lg border border-slate-100 flex flex-col justify-center">
+                            <h4 class="font-bold text-brand-primary mb-4">The Results</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                                    <span class="text-slate-700 text-sm"><strong>Visibility:</strong> Owner sees status of every job from his phone.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                                    <span class="text-slate-700 text-sm"><strong>Cash Flow:</strong> Invoices generate automatically upon shipping.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                                    <span class="text-slate-700 text-sm"><strong>Sanity:</strong> No more shouting across the shop floor.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-light">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-brand-dark mb-6">Why Pro9?</h2>
+            <p class="text-lg text-slate-500 mb-10">
+                Most software agencies want to build the "next big thing." We want to build the boring, reliable backbone that keeps your business profitable.
+            </p>
+            <div class="grid sm:grid-cols-2 gap-6 text-left">
+                <div class="flex gap-3">
+                    <i class="fa-solid fa-check-circle text-brand-primary text-xl"></i>
+                    <span class="text-slate-700 font-medium">We speak your language, not tech jargon.</span>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fa-solid fa-check-circle text-brand-primary text-xl"></i>
+                    <span class="text-slate-700 font-medium">Your team will actually use it (simple UX).</span>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fa-solid fa-check-circle text-brand-primary text-xl"></i>
+                    <span class="text-slate-700 font-medium">We value time: quick wins, not years of dev.</span>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fa-solid fa-check-circle text-brand-primary text-xl"></i>
+                    <span class="text-slate-700 font-medium">Safety first: we never break your current process.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Stop fighting your own process.</h2>
+                <p class="text-slate-300">Start with the one spreadsheet or task that causes the most headaches. Tell us what it is.</p>
+            </div>
+
+            <form class="bg-white text-slate-700 rounded-xl p-8 shadow-2xl" onsubmit="event.preventDefault(); alert('Thanks! This is a demo form.');">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Name</label>
+                        <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-brand-primary focus:ring-2 focus:ring-blue-100 outline-none" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Business Name</label>
+                        <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-brand-primary focus:ring-2 focus:ring-blue-100 outline-none" placeholder="Company Inc.">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-bold mb-2">Email Address</label>
+                    <input type="email" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-brand-primary focus:ring-2 focus:ring-blue-100 outline-none" placeholder="you@company.com">
+                </div>
+                <div class="mb-8">
+                    <label class="block text-sm font-bold mb-2">What process is breaking right now?</label>
+                    <textarea rows="4" class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-brand-primary focus:ring-2 focus:ring-blue-100 outline-none" placeholder="e.g., Our scheduling spreadsheet is a mess..."></textarea>
+                </div>
+                
+                <button type="submit" class="w-full bg-brand-primary text-white font-bold text-lg py-4 rounded-lg hover:bg-blue-700 transition shadow-lg">
+                    Get a Free Recommendation
+                </button>
+
+                <div class="text-center mt-6">
+                    <a href="#" class="text-sm text-slate-400 hover:text-brand-primary transition">Prefer to talk it through? <u>Book a 30-minute consultation call.</u></a>
+                </div>
+            </form>
+            
+            <div class="text-center mt-16 text-slate-500 text-sm">
+                &copy; 2023 Pro9 Systems. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
